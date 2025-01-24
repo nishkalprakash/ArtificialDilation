@@ -20,7 +20,7 @@ class gui_demo(object):
             [sg.Image(filename=self.folder+self.files[self.ind], key="-img-")],
             [sg.Text(" ")],
             [sg.Text("Dilation Ratio Rp/Ri:")],
-            [sg.Slider(range=(0.1, 0.75), resolution=0.01, tick_interval = 0.1,
+            [sg.Slider(range=(0.1, 0.90), resolution=0.01, tick_interval = 0.1,
              size=(50, 15), orientation='h',
              key="-bar-", enable_events=True)]
         ]
